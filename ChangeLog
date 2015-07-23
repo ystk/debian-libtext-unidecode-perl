@@ -1,0 +1,62 @@
+ -*-coding:utf-8;fill-column:79-*- ············································
+ Last Modified Time-stamp: "2014-08-15 04:32:57 MDT sburke@cpan.org"
+#==============================================================================
+
+Revision history for Perl module Text::Unidecode
+
+2014-08-15   Sean M. Burke  sburke@cpan.org
+	* RELEASE 1.22.  (The dev release works, so this is a version bump.)
+	* See notes for 2014-07-25, because this is the first public release
+	with significant changes since 2001!
+	
+2014-07-25   Sean M. Burke  sburke@cpan.org
+	* !DEVELOPER RELEASE!
+	* !Release 1.20_01!
+	* Many bugfixes.  Thanks especially to Tomaž Šolc!
+	* Yet more *.t files added for improved sanity checking.
+	* Shuffling around the internals of Unidecode.pm
+	* Putting in some vacuous 0x__.pm files where
+	previously there would just be a load failure
+	
+2014-06-30   Sean M. Burke  sburke@cpan.org
+	* Release 1.01 -- first official Unidecode release since 2001!!!
+	* There are no real changes since the 2014-06-23 developer
+	release.  I'm just making this all official now.
+	
+	
+2014-06-23   Sean M. Burke  sburke@cpan.org
+	* !DEVELOPER RELEASE!
+	* Release 1.00_03
+	* Now asserting that we need at least Perl 5.8.0
+	An automated test system that tried running the t/*.t
+        under a 5.6.2 spewed all kinds of crazy error messages.
+	Hence the bump-up.
+	So, I added assertions for the version.
+	* I added some tests for more basic sanity assertions.
+	
+2014-06-17   Sean M. Burke  sburke@cpan.org
+	v1.00_02 - Not released.  Just internal rearranging.
+	
+	
+2014-06-13   Sean M. Burke  sburke@cpan.org
+	* !DEVELOPER RELEASE!
+	* Release 1.00(_01!)- so many years later, finally we bump up to 1.*!
+
+	* My documentation is now BRILLIANT.
+	* Minor bugfixes.
+	* Some code comments for clarity.
+	* A modern test suite.
+
+	* A proper release will follow in a few days.
+	
+	
+2001-07-14  Sean M. Burke  sburke@cpan.org
+	
+	* Release 0.04 -- forgot to put TODO.txt in 0.03.  Now including
+	it.  That's the only change.
+	
+2001-07-14  Sean M. Burke  sburke@cpan.org
+	
+	* Release 0.03 -- first public release.
+
+[END OF CHANGELOG]

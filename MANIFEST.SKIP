@@ -1,0 +1,17 @@
+#
+# Last Modified Time-stamp: "2014-08-15 04:48:23 MDT sburke@cpan.org"
+#
+make_unidecode_dist.*
+make_manifest
+\.bak$
+\.old$
+Makefile$
+~$
+.tar.gz$
+~
+#
+CACHEDIR.TAG
+_*00_ABOUT_THIS_DIR.txt
+MYMETA.*
+SMB_.*
+/[0-9]{1,3}$
