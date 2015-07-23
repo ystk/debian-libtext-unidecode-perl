@@ -1,0 +1,28 @@
+libtext-unidecode-perl (1.22-1) unstable; urgency=medium
+
+  * Package now maintained by the Debian Perl group
+  * Update debian/watch to metacpan URL
+  * New upstream release
+  * Switch to dpkg-source 3.0 (quilt) format
+  * Update debian/rules to minimal dh style
+  * Conform with copyright-format 1.0
+  * Update Standards-Version (no changes)
+
+ -- Dominic Hargreaves <dom@earth.li>  Sat, 04 Oct 2014 21:55:51 +0100
+
+libtext-unidecode-perl (0.04-2) unstable; urgency=low
+
+  * Fix debian/rules rmdir bug (closes: #467978)
+  * Update Standards-Version (no changes)
+  * Standardize debian/watch format
+  * debian/control: add Homepage field
+  * Fix make distclean lintian warning
+
+ -- Dominic Hargreaves <dom@earth.li>  Sun,  2 Mar 2008 17:59:42 +0000
+
+libtext-unidecode-perl (0.04-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Dominic Hargreaves <dom@earth.li>  Tue,  4 Jan 2005 00:09:05 +0000
+
